@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("body.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    
+}
+img{
+    width: 2.5vw;
+    
+}
+#log{
+    display: inline-block;
+    margin-left: 2em;
+    color: whitesmoke;
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -43px;
+
+}
+ul li {
+    display: inline-block;
+    margin-left: 2vw;
+    cursor: pointer;
+}
+ul li:hover{
+    color: brown;
+}
+.btn1{
+    display: inline-block;
+    margin-left:90em;
+    width: 68px;
+    height: 27px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+    outline: 2px solid black;
+}
+main{
+    text-align: center;
+    margin-top: 10%;
+    height: 65vh;
+    color: white;
+}
+#btn2{
+margin-top: 15vh;
+margin-right: 5vw;
+height: 6%;
+border-radius: 5px;
+
+}  
+#btn2:hover{
+
+color: white;
+background-color: black;
+outline: 2px solid black;
+cursor: pointer;
+
+}  
+#btn3{
+height: 6%;
+margin-top: 15vh;
+border-radius: 5px;
+
+font-style: var(#btn2);
+}
+#btn3:hover{
+    
+    color: white;
+    background-color: black;
+    outline: 2px solid black;
+    cursor: pointer;
+}
